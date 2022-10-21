@@ -8,10 +8,10 @@ module.exports = {
       summary: `Larry Bouthillier is a `,
     },
     description: `Larry Bouthillier `,
-    siteUrl: `https://learningapi.com`,
+    //siteUrl: `https://learningapi.com`,
     social: {
-      linkedin: `learningapi`,
-      github: ``,
+      linkedin: `lbouthillier`,
+      github: `Harvard-DCE-CSCIE3`,
       instagram: `larrybouthillier`,
       youtube: ``,
     },
