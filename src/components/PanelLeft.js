@@ -129,11 +129,11 @@ export default function RightDrawer({ isRootPath, ThemeButton }) {
       </Box>
       <Box>
         <Avatar
-          alt="Brian Ruiz"
-          src="https://www.b-r.io/avatar.png"
+          alt="Larry Bouthillier"
+          src=""
           sx={{ width: 32, height: 32, backgroundColor: "divider" }}
         >
-          BR
+          LB
         </Avatar>
       </Box>
     </Box>

@@ -8,7 +8,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 // Utilities
 import kebabCase from "lodash/kebabCase"
-import { Provider, ClapButton } from "@lyket/react"
 
 // local components
 import Layout from "../components/layout"
@@ -292,46 +291,6 @@ const PostDetailTemplate = ({ data, location }) => {
                     <LinkIcon sx={{ transform: "rotate(-45deg)" }} />
                   </IconButton>
                 </Tooltip>
-
-                <Box
-                  sx={{
-                    fontSize: "15px",
-                    color: "text.secondary",
-                    
-                    "* > svg": {
-                      color: "action.active",
-                      fill: "currentColor",
-                    },
-                    "* > button": {
-                      width: "40px !important",
-                      height: "40px !important",
-                      backgroundColor: "none",
-                      transition: "background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
-                      "&:hover": {
-                        backgroundColor: "action.hover",
-                        opacity: "initial",
-                      },
-                      "&:focus": {
-                        backgroundColor: "action.selected",
-                        transition: "background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
-
-                      }
-                    }
-                  }}
-                >
-                  <Provider
-                    apiKey="pt_9aaebf23b47b7acc590ce3fbcae458"
-                    theme={{
-                      colors: {
-                        primary: "inherit",
-                        text: "inherit",
-                        highlight: "#6200EE20",
-                      },
-                    }}
-                  >
-                    <ClapButton id={post.id} hideCounterIfLessThan={1} />
-                  </Provider>
-                </Box>
               </Stack>
             </Box>
             <Box py={4}>

@@ -146,7 +146,7 @@ export default function PanelRight({ extraDrawerContent }) {
                     src="https://www.learningapi.com/files/"
                     sx={{ width: 64, height: 64, backgroundColor: "divider" }}
                   >
-                    BR
+                    LB
                   </Avatar>
                   <div>
                     <Typography
@@ -162,17 +162,17 @@ export default function PanelRight({ extraDrawerContent }) {
                      Larry Bouthillier
                     </Typography>
                     <Typography variant="body2" sx={{ color: "text.disabled" }}>
-                      Instructor in Computer Science, Harvard Univeristy Extension School
+                      Instructor in Computer Science, Harvard University Extension School
                     </Typography>
                   </div>
                 </Box>
                 <Typography variant="body2" sx={{  color: "text.secondary" }}>
                   This is a sample JamStack-based blog created as a sandbox for the
                   course <b>CSCI E114 - Web Application Development with Jamstack</b> 
-                  It's adapted from the 
+                  <p>It's adapted from the 
                   <a href="https://github.com/BrianRuizy/gatsby-medium-blog">
                     gatsby-medium-blog template developed by Brian Ruiz
-                  </a>.
+                  </a>.</p>
                 </Typography>
               </Box>
             )}

@@ -53,6 +53,7 @@ const Layout = ({
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   const darkModeHook = useDarkMode(false)
+  //const darkModeHook = {value: false}
   const mode = darkModeHook.value === false ? "light" : "dark"
 
   let theme = React.useMemo(
@@ -173,7 +174,7 @@ const Layout = ({
                             },
                           }}
                         >
-                          BR
+                          LB
                         </Avatar>
                       )}
 
